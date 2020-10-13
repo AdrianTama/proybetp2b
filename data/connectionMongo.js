@@ -1,9 +1,9 @@
-// mongodb+srv://admin:betp2b@cluster0.7et2f.mongodb.net/sample_betp2b?retryWrites=true&w=majority
+// mongodb+srv://admin:betp2b@cluster0.cx8sm.mongodb.net/sample_betp2b?retryWrites=true&w=majority
 const mongoClient = require('mongodb').MongoClient;
 const chalk = require('chalk');
 
 // TODO: cambiar por variables de entorno
-const uriMongo = 'mongodb+srv://admin:betp2b@cluster0.7et2f.mongodb.net/sample_betp2b?retryWrites=true&w=majority';
+const uriMongo = 'mongodb+srv://admin:betp2b@cluster0.cx8sm.mongodb.net/sample_betp2b?retryWrites=true&w=majority';
 
 const client = new mongoClient(uriMongo, {useUnifiedTopology: true, useNewUrlParser: true });
 
